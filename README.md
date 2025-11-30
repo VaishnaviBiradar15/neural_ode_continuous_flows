@@ -19,13 +19,13 @@ Transforming a standard Gaussian distribution ($t=1$) back into the complex Two 
 ### 2. Learned Density
 The model successfully learned a continuous probability density function that matches the geometry of the target dataset.
 
-![Target distribution](results/Final_distribution.png) 
-![Target distribution](results/Final_distribution_curve.png) 
+![Target distribution](Final_distribution.png) 
+![Target distribution](Final_distribution_curve.png) 
 
 ### 3. Training Convergence
 The model minimizes the Negative Log-Likelihood (NLL) effectively over 250 epochs.
 
-![Loss Curve](results/loss_curve.png)
+![Loss Curve](loss_curve.png)
 
 ---
 
