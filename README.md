@@ -13,21 +13,21 @@ This code accompanies my article series **"Beyond Layers"**, where I explain the
 ### 1. Generative Sampling (Reverse Flow)
 Transforming a standard Gaussian distribution ($t=1$) back into the complex Two Moons data distribution ($t=0$) by integrating the learned vector field backward in time.
 
-![Flow Animation](flow_animation.gif)
+![Flow Animation](Results/flow_animation.gif)
 
 *(Above: A GIF of the learned flow carrying noise particles to the data manifold)*
 
 ### 2. Learned Density
 The model successfully learned a continuous probability density function that matches the geometry of the target dataset.
 
-![Target distribution](Final_distribution.png) 
+![Target distribution](Results/Final_distribution.png) 
 
-![Target distribution](Final_distribution_curve.png) 
+![Target distribution](Results/Final_distribution_curve.png) 
 
 ### 3. Training Convergence
 The model minimizes the Negative Log-Likelihood (NLL) effectively over 250 epochs.
 
-![Loss Curve](loss_curve.png)
+![Loss Curve](Results/loss_curve.png)
 
 ---
 
